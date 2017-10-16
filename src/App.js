@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Counter from './Counter'
+import UserComponent from './UserComponent'
 import logo from './logo.svg';
 import './App.css';
 
@@ -16,6 +17,7 @@ function App(props) {
         <div>
           <Counter />
           <Counter />
+         <UserComponent />
         </div>
       </div>
     );
