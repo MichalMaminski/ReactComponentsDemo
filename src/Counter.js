@@ -7,14 +7,6 @@ class Counter extends Component {
 					   isCounting: false };
 	}
 
-	componentDidMount() {
-		// 
-	}
-
-	componentWillUnmount() {
-		
-	}
-
 	tick() {
 		this.setState((prevState, props) => {
 			return {time : new Date().toLocaleTimeString()}
